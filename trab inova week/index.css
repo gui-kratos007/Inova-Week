@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    justify-content: space-evenly;
+    height: 190px;
+}
+img#hero{
+    display: flex;
+    height: 190px;
+}
+div#hero{
+    color: rgb(3, 3, 155);
+}
+nav{
+    display: flex;
+}
