@@ -6,18 +6,55 @@
 
 header{
     display: flex;
-    align-items: center;
-    background-color: blueviolet;
-    justify-content: space-evenly;
-    height: 190px;
+    align-items:center;
+    background-color: rgb(78, 78, 175);
+    justify-content: center;
+    font-family: 'Bungee Spice', cursive;
 }
 img#hero{
     display: flex;
     height: 190px;
 }
-div#hero{
-    color: rgb(3, 3, 155);
-}
+
+
 nav{
+    background-color: rgb(78, 78, 175);
+}
+
+ul{
     display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+ul li{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+ul li:hover{
+    background-color: orangered;
+}
+li a{
+    font-family: 'Bungee Spice', cursive;
+    text-decoration: none;
+}
+
+h1#Hero{
+    font-family: 'Inter Tight', sans-serif;
+    color:rgb(255, 123, 0)
+
+}
+
+body{
+    background-color: rgb(54, 54, 145);
+    align-items: center;
+}
+
+img#stand{
+    width: 900px;
+    margin-left: 15%;
+    margin-top: 5%;
 }
